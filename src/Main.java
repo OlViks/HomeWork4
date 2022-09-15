@@ -13,6 +13,7 @@ public class Main {
         System.out.println("Значение переменной screw с типом long равно " + screw );
         System.out.println("Значение переменной bolt с типом float равно " + bolt );
         System.out.println("Значение переменной burger с типом double равно " + burger );
+
         //Задния №2
         double broad = 27.12;
         long screwLong = 987678965549L;
@@ -32,6 +33,7 @@ public class Main {
         int sumStudent = studentPalovna + studentSergeevna + studentAndreevna;
         int listStudent = list / sumStudent;
         System.out.println("На каждого ученика рассчитано " + listStudent + " листов бумаги");
+
         //Задание №4
         byte bottle = 16;
         byte bottleMin = (byte) (bottle / 2);
@@ -44,6 +46,7 @@ public class Main {
         System.out.println("За сутки машина произвела бутылок " + bottleDay + " штук ");
         System.out.println("За 3 дня машина произвела бутылок " + bottleDay3 + " штук ");
         System.out.println("За месяц машина произвела бутылок " + bottleMonth + " штук ");
+
         //Задание 5
         byte bank = 120;
         byte bankBrown = 4;
@@ -52,6 +55,7 @@ public class Main {
         byte bankBrownSum = (byte) (classSum *4);
         byte bankWitheSum = (byte) (classSum * 2);
         System.out.println("В школе, где " + classSum + " классов, нужно " + bankWitheSum + " банок белой краски и " + bankBrownSum + " банок коричневой краски.");
+
         //Задание 6
         byte banane = 5;
         int bananeWeight = banane*80;
@@ -65,8 +69,18 @@ public class Main {
         double sumKg = sumGram / 1000;
         System.out.println("Завтрак " + sumGram + " грамм или " + sumKg + " килограмм.");
 
-
-
+        //Задание 7
+        int weigth = 7; // кг
+        int weightGram = 7 *1000; // грамм
+        int weigthX = 250;
+        int weightZ = 500;
+        int DayX = weightGram / weigthX;
+        int DayZ = weightGram / weightZ;
+        int avarage = (weigthX + weightZ) / 2;
+        int avarageDay = weightGram / avarage;
+        System.out.println("Если спортсмен будет терять каждый день по " + weigthX + " грамм потребуется " + DayX +  " дней.");
+        System.out.println("Если спортсмен будет терять каждый день по " + weightZ + " грамм потребуется " + DayZ +  " дней.");
+        System.out.println("В среднем для похудения потребуется " + avarageDay +  " дней.");
 
 
 
