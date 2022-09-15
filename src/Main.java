@@ -34,10 +34,10 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + listStudent + " листов бумаги");
         //Задание №4
         byte bottle = 16;
-        int bottleMin = bottle / 2;
-        int bottleMin20 = bottleMin * 20;
-        int bottleHoure = bottleMin * 60;
-        int bottleDay = bottleHoure * 24;
+        byte bottleMin = (byte) (bottle / 2);
+        short bottleMin20 = (short) (bottleMin * 20);
+        short bottleHoure = (short) (bottleMin * 60);
+        short bottleDay = (short) (bottleHoure * 24);
         int bottleDay3 = bottleDay * 3;
         int bottleMonth = bottleDay * 30;
         System.out.println("За 20 минут машина произвела бутылок " + bottleMin20 + " штук ");
