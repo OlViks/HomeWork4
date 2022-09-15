@@ -52,6 +52,19 @@ public class Main {
         byte bankBrownSum = (byte) (classSum *4);
         byte bankWitheSum = (byte) (classSum * 2);
         System.out.println("В школе, где " + classSum + " классов, нужно " + bankWitheSum + " банок белой краски и " + bankBrownSum + " банок коричневой краски.");
+        //Задание 6
+        byte banane = 5;
+        int bananeWeight = banane*80;
+        int milk = 200;
+        double milkWeigth = milk * 1.05;
+        byte ice = 2;
+        int iceWeight = ice *  100;
+        byte egg = 4;
+        int eggWeight = egg * 70;
+        double sumGram = bananeWeight + milkWeigth + iceWeight + eggWeight;
+        double sumKg = sumGram / 1000;
+        System.out.println("Завтрак " + sumGram + " грамм или " + sumKg + " килограмм.");
+
 
 
 
