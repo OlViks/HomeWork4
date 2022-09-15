@@ -15,13 +15,13 @@ public class Main {
         System.out.println("Значение переменной burger с типом double равно " + burger );
 
         //Задния №2
-        double broad = 27.12;
-        long screwLong = 987678965549L;
+        float broad = 27.12F;
+        long screwLong = 987_678_965_549L;
         byte table = 2;
         short butlle = 786;
-        boolean g = 2 > 4;
-        short dog =  569;
-        short temperatur = -159;
+        boolean g = false;
+        char dog =  569;
+        int temperatur = -159;
         short scool = 27897;
         byte cat = 67;
 
