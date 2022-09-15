@@ -44,6 +44,15 @@ public class Main {
         System.out.println("За сутки машина произвела бутылок " + bottleDay + " штук ");
         System.out.println("За 3 дня машина произвела бутылок " + bottleDay3 + " штук ");
         System.out.println("За месяц машина произвела бутылок " + bottleMonth + " штук ");
+        //Задание 5
+        byte bank = 120;
+        byte bankBrown = 4;
+        byte bankWithe = 2;
+        byte classSum = 120 / (4+2);
+        byte bankBrownSum = (byte) (classSum *4);
+        byte bankWitheSum = (byte) (classSum * 2);
+        System.out.println("В школе, где " + classSum + " классов, нужно " + bankWitheSum + " банок белой краски и " + bankBrownSum + " банок коричневой краски.");
+
 
 
 
