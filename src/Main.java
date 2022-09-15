@@ -71,7 +71,7 @@ public class Main {
 
         //Задание 7
         int weigth = 7; // кг
-        int weightGram = 7 *1000; // грамм
+        int weightGram = weigth *1000; // грамм
         int weigthX = 250;
         int weightZ = 500;
         int DayX = weightGram / weigthX;
@@ -82,7 +82,24 @@ public class Main {
         System.out.println("Если спортсмен будет терять каждый день по " + weightZ + " грамм потребуется " + DayZ +  " дней.");
         System.out.println("В среднем для похудения потребуется " + avarageDay +  " дней.");
 
-
-
+        //Задание 8
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        int mashaIncom = masha + (masha / 10);
+        int denisIncom = denis + (denis / 10);
+        int kristinaIncom = kristina + (kristina / 10);
+        int sumDownM = masha * 12;
+        int sumDownD = denis * 12;
+        int sumDownK = kristina * 12;
+        int sumUpM = mashaIncom * 12;
+        int sumUpD = denisIncom * 12;
+        int sumUpK = kristinaIncom * 12;
+        int avarageM = sumUpM - sumDownM;
+        int avarageD = sumUpD - sumDownD;
+        int avarageK = sumUpK - sumDownK;
+        System.out.println("Маша теперь получает " + mashaIncom + " рублей. Годовой доход вырос на " + avarageM + " рублей.");
+        System.out.println("Денис теперь получает " + denisIncom + " рублей. Годовой доход вырос на " + avarageD + " рублей.");
+        System.out.println("Маша теперь получает " + kristinaIncom + " рублей. Годовой доход вырос на " + avarageK + " рублей.");
     }
 }
