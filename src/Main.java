@@ -24,5 +24,17 @@ public class Main {
         short scool = 27897;
         byte cat = 67;
 
+        //Задание №3
+        byte studentPalovna = 23;
+        byte studentSergeevna = 27;
+        byte studentAndreevna = 30;
+        int list = 480;
+        int sumStudent = studentPalovna + studentSergeevna + studentAndreevna;
+        int listStudent = list / sumStudent;
+        System.out.println("На каждого ученика рассчитано " + listStudent + " листов бумаги");
+
+
+
+
     }
 }
